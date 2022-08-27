@@ -32,7 +32,7 @@ node* midpoint_linkedlist(node *head)
 {
     // Write your code here
     // node *temp=head;
-    node *fast=head->next;
+    node *fast=head;
     node *slow=head;
     
     if(head!=NULL){
